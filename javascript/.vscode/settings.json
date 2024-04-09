@@ -1,0 +1,24 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "file-icons",
+    "explorer.confirmDelete": false,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "editor.formatOnSave": true,
+    "eslint.run": "onSave",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "redhat.telemetry.enabled": false,
+    "git.openRepositoryInParentFolders": "always"
+}
