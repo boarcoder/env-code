@@ -1,18 +1,24 @@
 {
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1,
-    "workbench.iconTheme": "file-icons",
     "explorer.confirmDelete": false,
-    "eslint.format.enable": true,
-    "eslint.lintTask.enable": true,
+    "workbench.iconTheme": "file-icons",
+    "redhat.telemetry.enabled": false,
+    "git.openRepositoryInParentFolders": "always",
     "editor.formatOnSave": true,
     "eslint.run": "onSave",
+    "eslint.format.enable": true,
+    "eslint.validate": [
+        "json",
+        "javascript",
+        "typescript"
+    ],
+    "eslint.lintTask.enable": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[typescriptreact]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
@@ -20,6 +26,4 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "redhat.telemetry.enabled": false,
-    "git.openRepositoryInParentFolders": "always"
 }
